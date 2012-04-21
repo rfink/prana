@@ -1,0 +1,32 @@
+{
+	"name": "prana",
+	"description": "MySQL monitoring service, including api for real-time slave connection requesting",
+	"main": "./index",
+	"author": "Ryan Fink",
+	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/rfink/prana.git"
+	},
+	"bugs": {
+		"url": "http://github.com/rfink/prana/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://github.com/rfink/prana/raw/master/LICENSE"
+		}
+	],
+	"dependencies": {
+		"underscore": "1.2.2",
+		"express": "2.5.6",
+		"swig": "0.9.4",
+		"socket.io": "0.8.7",
+		"async": "0.1.15",
+		"mysql": "0.9.5"
+	},
+	"devDependencies": {
+		"nodeunit": "0.7.3"
+	},
+	"engine": "node >= 0.6.0"
+}
