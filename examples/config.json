@@ -5,10 +5,10 @@
 			"port": 3306,
 			"username": "root",
 			"password": null,
-			"isMaster": false
+			"isMaster": false,
+			"id": null
 		}
 	],
-	"mainApiPort": 23532,
-	"ioSocketPort": 23533,
-	"repeatInterval": 1000
+	"port": 23532,
+	"repeat": 1000
 }
